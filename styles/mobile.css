@@ -9,8 +9,21 @@
   src: url("../fonts/Cocogoose-Pro-trial.ttf") format("truetype");
 }
 
-h1 {
-  color: var(--red-color);
-  font-size: 200px;
-  font-family: 'Cocogoose', sans-serif;
+.header-section {
+  background: url('../img/00.jpg');
+  height: 5em;
+}
+
+.hamburger-icon {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.hamburger-spans {
+  display: block;
+  width: 4em;
+  margin-bottom: 0.5em;
+  height: 0.5em;
+  background-color: var(--black-color);
+  margin-left: 2em;
 }
