@@ -1,4 +1,16 @@
+:root {
+  --black-color: #272a31;
+  --red-color: #ec5242;
+  --gray-color: #d3d3d3;
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../fonts/Cocogoose-Pro-trial.ttf") format("truetype");
+}
+
 h1 {
-  color: blueviolet;
+  color: var(--red-color);
   font-size: 200px;
+  font-family: 'Cocogoose', sans-serif;
 }
