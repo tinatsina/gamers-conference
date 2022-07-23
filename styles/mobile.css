@@ -174,3 +174,16 @@ body {
 .last-program-card {
   margin-bottom: 4em;
 }
+
+.second-header {
+  width: 50%;
+  margin: auto;
+  padding: 0.2em;
+  color: var(--black-color);
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: 400;
+  font-size: initial;
+  text-align: center;
+  padding-top: 2.5em;
+}
+
