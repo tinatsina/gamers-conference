@@ -4,6 +4,10 @@
   --gray-color: #d3d3d3;
 }
 
+body {
+  margin: 0;
+}
+
 @font-face {
   font-family: "Cocogoose";
   src: url("../fonts/Cocogoose_trial.otf") format("truetype");
@@ -82,18 +86,31 @@
   padding-bottom: 5em;
 }
 
+.main-program-section {
+  background-color: var(--black-color);
+  padding-bottom: 2.5em;
+  width: 100%;
+  background-image: url('../img/15.png');
+}
+
 .top-content {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2em;
 }
 
 .top-content > h1 {
   margin: auto;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 0.1em;
   align-items: center;
   display: flex;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: var(--gray-color);
+  font-size: large;
+  margin-bottom: 0.5em;
 }
 
 .main-program-line {
@@ -107,24 +124,53 @@
 .bottom-content {
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .program-cards {
   display: flex;
   flex-direction: row;
-}
-
-.program-cards > img {
-  /* width: 15%; */
+  background-color: rgba(211, 211, 211, 0.25);
+  margin: 0.5em;
 }
 
 .program-cards > h2 {
   width: 25%;
   margin: auto;
-  text-align: center;
   padding: 0.2em;
+  color: var(--red-color);
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: 400;
+  font-size: initial;
 }
 
 .program-cards > p {
   padding-left: 0.1em;
+  width: 60%;
+  color: var(--gray-color);
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.main-program-section > button {
+  background-color: var(--red-color);
+  margin: auto;
+  width: 16em;
+  display: block;
+  border-radius: 0.5em;
+  padding: 1.7em;
+  color: var(--gray-color);
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: initial;
+  border: none;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.last-program-card {
+  margin-bottom: 4em;
 }
