@@ -79,4 +79,52 @@
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: var(--black-color);
+  padding-bottom: 5em;
+}
+
+.top-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-content > h1 {
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  align-items: center;
+  display: flex;
+}
+
+.main-program-line {
+  display: block;
+  height: 0.2em;
+  background-color: #ec5242;
+  margin: auto;
+  width: 3em;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.program-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.program-cards > img {
+  /* width: 15%; */
+}
+
+.program-cards > h2 {
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  padding: 0.2em;
+}
+
+.program-cards > p {
+  padding-left: 0.1em;
 }
