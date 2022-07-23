@@ -6,12 +6,14 @@
 
 @font-face {
   font-family: "Cocogoose";
-  src: url("../fonts/Cocogoose-Pro-trial.ttf") format("truetype");
+  src: url("../fonts/Cocogoose_trial.otf") format("truetype");
 }
 
 .header-section {
-  background: url('../img/00.jpg');
-  height: 5em;
+  background: url('../img/08.jpg');
+  background-size: cover;
+  margin: auto;
+  background-repeat: no-repeat;
 }
 
 .hamburger-icon {
@@ -21,9 +23,60 @@
 
 .hamburger-spans {
   display: block;
-  width: 4em;
+  width: 3em;
   margin-bottom: 0.5em;
   height: 0.5em;
   background-color: var(--black-color);
   margin-left: 2em;
+}
+
+.text-container > p {
+  padding-top: 4em;
+  width: 90%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  color: var(--red-color);
+}
+
+.creative-nexus {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 90%;
+  margin: auto;
+  font-size: xxx-large;
+  font-weight: 400;
+  color: rgba(236, 82, 66, 0.9);
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.boxed-paragraph {
+  display: block;
+  border: solid #fff;
+  border-radius: 3px;
+  padding: 1em;
+  width: 90%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: var(--black-color);
+}
+
+.header-time {
+  padding-top: 1em;
+  width: 90%;
+  margin: auto;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: xx-large;
+  font-weight: 400;
+  color: var(--black-color);
+}
+
+.below-h1 {
+  width: 90%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: var(--black-color);
 }
