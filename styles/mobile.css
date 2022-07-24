@@ -187,3 +187,59 @@ body {
   padding-top: 2.5em;
 }
 
+.speaker-card {
+  display: flex;
+}
+
+.speaker-image-container {
+  position: relative;
+  width: 100px;
+}
+
+.bottom-image {
+  position: relative;
+  top: 20px;
+  left: 0;
+  width: 4em;
+}
+
+.top-image {
+  position: relative;
+  top: -33px;
+  left: 16px;
+  width: 6em;
+}
+
+.speaker-details-container > h2 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: large;
+  font-weight: 400;
+  color: var(--black-color);
+  margin-bottom: 0;
+}
+
+.speaker-details-container > span {
+  width: 2em;
+  height: 0.1em;
+  background-color: var(--gray-color);
+  display: block;
+}
+
+.top-paragraph-speakers {
+  color: var(--red-color);
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-size: smaller;
+  margin-top: 0;
+}
+
+.bot-paragraph-speakers {
+  font-size: x-small;
+  color: var(--black-color);
+  margin-bottom: 0;
+}
+
+.speaker-details-container {
+  width: 75%;
+  margin-left: 7.5%;
+}
