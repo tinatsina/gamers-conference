@@ -243,3 +243,10 @@ body {
   width: 75%;
   margin-left: 7.5%;
 }
+
+.card-flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
