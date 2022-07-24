@@ -296,3 +296,25 @@ body {
   font-size: x-large;
   font-family: 'Cocogoose', sans-serif;
 }
+
+.footer-section-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-detail-container {
+  width: 49%;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.right-footer-text {
+  font-size: large;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.left-footer-text {
+  font-size: small;
+  font-family: 'Lato-Bold', sans-serif;
+  text-align: left;
+}
