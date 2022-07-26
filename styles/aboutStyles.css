@@ -327,3 +327,7 @@ body {
   font-family: 'Lato-Bold', sans-serif;
   text-align: left;
 }
+
+.ccs-image-container > img {
+  width: 375px;
+}
