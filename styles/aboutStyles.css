@@ -362,14 +362,14 @@ body {
 .past-image-overlay > h1 {
   text-align: center;
   padding-top: 1em;
-  color: var(--gray-color);
+  color: #fff;
   margin-top: 16px;
   font-family: 'Cocogoose', sans-serif;
 }
 
 .past-image-overlay > p {
   text-align: center;
-  color: var(--gray-color);
+  color: #fff;
   font-size: large;
   font-family: 'Lato', sans-serif;
 }
