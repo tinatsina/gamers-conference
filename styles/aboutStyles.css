@@ -330,4 +330,11 @@ body {
 
 .ccs-image-container > img {
   width: 375px;
+  padding-bottom: 2.5em;
+}
+
+.ccs-underlining {
+  height: 2px;
+  background-color: var(--gray-color);
+  display: block;
 }
