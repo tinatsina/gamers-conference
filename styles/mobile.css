@@ -17,6 +17,10 @@ body {
   display: none;
 }
 
+.navbar-desktop {
+  display: none;
+}
+
 .header-section {
   background: url('../img/08.jpg');
   background-size: cover;
@@ -53,7 +57,7 @@ body {
   padding-bottom: 1em;
   width: 90%;
   margin: auto;
-  font-size: xxx-large;
+  font-size: xx-large;
   font-weight: 400;
   color: rgba(236, 82, 66, 0.9);
   font-family: 'Cocogoose', sans-serif;
