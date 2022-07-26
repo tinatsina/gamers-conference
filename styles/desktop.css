@@ -11,6 +11,11 @@
     background-color: var(--black-color);
   }
 
+  .desktop-short-view {
+    width: 90%;
+    margin: auto;
+  }
+
   .top-black-navbar > ul {
     margin-top: 0.5em;
     margin-bottom: 5px;
