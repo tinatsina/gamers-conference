@@ -338,3 +338,43 @@ body {
   background-color: var(--gray-color);
   display: block;
 }
+
+.past-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.past-image-card {
+  background-image: url('../img/18.jpg');
+  width: 90%;
+  background-size: cover;
+  margin: auto;
+}
+
+.past-image-overlay {
+  background-color: rgba(236, 82, 66, 0.75);
+  z-index: 10;
+  height: 11em;
+  margin-top: -16px;
+}
+
+.past-image-overlay > h1 {
+  text-align: center;
+  padding-top: 1em;
+  color: var(--gray-color);
+  margin-top: 16px;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.past-image-overlay > p {
+  text-align: center;
+  color: var(--gray-color);
+  font-size: large;
+  font-family: 'Lato', sans-serif;
+}
+
+.borderbuffer {
+  display: block;
+  padding-top: 5em;
+}
