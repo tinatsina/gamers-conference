@@ -346,10 +346,17 @@ body {
 }
 
 .past-image-card {
-  background-image: url('../img/18.jpg');
   width: 90%;
   background-size: cover;
   margin: auto;
+}
+
+.pic-bot {
+  background-image: url('../img/18.jpg');
+}
+
+.pic-top {
+  background-image: url('../img/19.jpg');
 }
 
 .past-image-overlay {
