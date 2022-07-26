@@ -13,6 +13,10 @@ body {
   src: url("../fonts/Cocogoose_trial.otf") format("truetype");
 }
 
+.top-black-navbar {
+  display: none;
+}
+
 .header-section {
   background: url('../img/08.jpg');
   background-size: cover;
