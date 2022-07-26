@@ -80,4 +80,32 @@
   .card-flex-container {
     display: inherit;
   }
+
+  .bottom-content {
+    flex-direction: row;
+  }
+
+  .program-cards {
+    flex-direction: column;
+  }
+
+  .image-container {
+    padding-left: 3.5em;
+  }
+
+  .program-cards > h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .program-cards > p {
+    width: 90%;
+    padding: 0.5em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .last-program-card {
+    margin-bottom: auto;
+  }
 }
