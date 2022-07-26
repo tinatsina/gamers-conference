@@ -70,4 +70,14 @@
   .hamburger-icon {
     display: none;
   }
+
+  .speaker-card {
+    display: inline-flex;
+    width: 45%;
+    padding-left: 2em;
+  }
+
+  .card-flex-container {
+    display: inherit;
+  }
 }
