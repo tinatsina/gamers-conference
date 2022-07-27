@@ -328,6 +328,11 @@ body {
   text-align: left;
 }
 
+.ccs-image-container {
+  width: fit-content;
+  margin: auto;
+}
+
 .ccs-image-container > img {
   width: 375px;
   padding-bottom: 2.5em;
