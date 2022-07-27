@@ -75,6 +75,10 @@
     display: none;
   }
 
+  .header-container.active {
+    display: none;
+  }
+
   .speaker-card {
     display: inline-flex;
     width: 45%;

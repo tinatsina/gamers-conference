@@ -21,6 +21,60 @@ body {
   display: none;
 }
 
+.header-container.active {
+  transition: 0.25s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--red-color);
+  width: 100%;
+  display: block;
+  height: 25em;
+}
+
+.anchor-navbar {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.header-container.active > ul {
+  padding-top: 2.5em;
+  display: block;
+}
+
+.header-container > ul {
+  padding-top: 2.5em;
+  display: none;
+}
+
+.header-container > ul > li {
+  font-size: xx-large;
+  font-family: 'Cocogoose', sans-serif;
+  color: var(--black-color);
+  margin: auto;
+  text-align: center;
+  list-style: none;
+}
+
+.hamburger-spans {
+  transition: 0.25s ease-in;
+}
+
+.childTwo.active {
+  opacity: 0;
+  transition: 0.25s ease-in;
+}
+
+.childOne.active {
+  transform: translateY(1em) rotate(45deg);
+  transition: 0.25s ease-in;
+}
+
+.childThree.active {
+  transform: translateY(-1em) rotate(-45deg);
+  transition: 0.25s ease-in;
+}
+
 .gg-campaign {
   border: solid;
   border-color: var(--red-color);
