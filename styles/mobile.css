@@ -21,6 +21,11 @@ body {
   display: none;
 }
 
+.gg-campaign {
+  border: solid;
+  border-color: var(--red-color);
+}
+
 .header-section {
   background: url('../img/08.jpg');
   background-size: cover;

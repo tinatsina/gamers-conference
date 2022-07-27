@@ -13,11 +13,24 @@ body {
   src: url("../fonts/Cocogoose_trial.otf") format("truetype");
 }
 
+.top-black-navbar {
+  display: none;
+}
+
+.navbar-desktop {
+  display: none;
+}
+
 .header-section {
   background: url('../img/08.jpg');
   background-size: cover;
   margin: auto;
   background-repeat: no-repeat;
+}
+
+.gg-campaign {
+  border: solid;
+  border-color: var(--red-color);
 }
 
 .hamburger-icon {
