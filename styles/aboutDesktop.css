@@ -10,7 +10,6 @@
     display: none;
   }
 
-  
   .top-black-navbar > ul {
     margin-top: 0.5em;
     margin-bottom: 5px;
@@ -38,6 +37,7 @@
 
   .navbar-desktop {
     display: block;
+    background-color: #fff;
   }
 
   .logo-navbar-left > a > img {
@@ -54,10 +54,6 @@
     float: right;
   }
 
-  .navbar-desktop {
-    background-color: #fff;
-  }
-
   .navbar-right > ul {
     display: flex;
     flex-direction: row;
@@ -70,10 +66,6 @@
     font-family: 'Lato-Bold', sans-serif;
     font-weight: 400;
     font-size: small;
-  }
-
-  .hamburger-icon {
-    display: none;
   }
 
   .header-container.active {

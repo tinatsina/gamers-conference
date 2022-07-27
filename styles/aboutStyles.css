@@ -49,11 +49,6 @@ body {
   color: var(--black-color);
 }
 
-.header-container.active > ul {
-  padding-top: 2.5em;
-  display: block;
-}
-
 .header-container > ul {
   padding-top: 2.5em;
   display: none;
@@ -68,8 +63,9 @@ body {
   list-style: none;
 }
 
-.hamburger-spans {
-  transition: 0.25s ease-in;
+.header-container.active > ul {
+  padding-top: 2.5em;
+  display: block;
 }
 
 .childTwo.active {
@@ -99,6 +95,7 @@ body {
   height: 0.5em;
   background-color: var(--black-color);
   margin-left: 2em;
+  transition: 0.25s ease-in;
 }
 
 .text-container > p {

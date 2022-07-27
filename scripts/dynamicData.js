@@ -37,7 +37,7 @@ const speakerPanel = [
   },
 ];
 
-const speakersList = document.querySelector(".card-flex-container");
+const speakersList = document.querySelector('.card-flex-container');
 
 // The data to be loaded
 const dataBank = speakerPanel.map((speaker) => `
