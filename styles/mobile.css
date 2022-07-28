@@ -199,7 +199,7 @@ body {
   margin: 0.5em;
 }
 
-.program-cards > h2 {
+.program-cards > h3 {
   width: 25%;
   margin: auto;
   padding: 0.2em;
@@ -275,7 +275,7 @@ body {
   width: 6em;
 }
 
-.speaker-details-container > h2 {
+.speaker-details-container > h3 {
   font-family: 'Cocogoose', sans-serif;
   font-size: large;
   font-weight: 400;

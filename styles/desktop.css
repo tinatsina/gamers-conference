@@ -68,6 +68,10 @@
     font-size: small;
   }
 
+  .navbar-right > ul > li > a {
+    text-decoration: none;
+  }
+
   .hamburger-icon {
     display: none;
   }
@@ -98,7 +102,7 @@
     padding-left: 3.5em;
   }
 
-  .program-cards > h2 {
+  .program-cards > h3 {
     width: 100%;
     text-align: center;
   }

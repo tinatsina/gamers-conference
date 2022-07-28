@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <img src="${speaker.backimg}" alt="Ahri" class="top-image">
       </div>
       <div class="speaker-details-container">
-          <h2>${speaker.name}</h2>
+          <h3>${speaker.name}</h3>
           <p class="top-paragraph-speakers">
           ${speaker.title}
           </p>

@@ -68,6 +68,10 @@
     font-size: small;
   }
 
+  .navbar-right > ul > li > a {
+    text-decoration: none;
+  }
+
   .header-container.active {
     display: none;
   }
