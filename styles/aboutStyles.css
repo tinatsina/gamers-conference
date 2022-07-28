@@ -2,6 +2,7 @@
   --black-color: #272a31;
   --red-color: #ec5242;
   --gray-color: #d3d3d3;
+  --nav-color: #f7f4f4;
 }
 
 body {
@@ -38,7 +39,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--red-color);
+  background-color: var(--nav-color);
   width: 100%;
   display: block;
   height: 25em;
@@ -173,7 +174,7 @@ body {
   margin-bottom: 2em;
 }
 
-.top-content > h1 {
+.top-content > h2 {
   margin: auto;
   padding-top: 1em;
   padding-bottom: 0.1em;
@@ -435,7 +436,7 @@ body {
   margin-top: -16px;
 }
 
-.past-image-overlay > h1 {
+.past-image-overlay > h2 {
   text-align: center;
   padding-top: 1em;
   color: #fff;

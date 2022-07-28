@@ -39,8 +39,9 @@ const speakerPanel = [
 
 const speakersList = document.querySelector('.card-flex-container');
 
-// The data to be loaded
-const dataBank = speakerPanel.map((speaker) => `
+document.addEventListener('DOMContentLoaded', () => {
+  // The data to be loaded
+  const dataBank = speakerPanel.map((speaker) => `
 <div class="speaker-card">
       <div class="speaker-image-container">
           <img src="img/16.jpeg" alt="checkboard" class="bottom-image">
@@ -59,4 +60,5 @@ const dataBank = speakerPanel.map((speaker) => `
   </div>
 `).join('');
 
-speakersList.innerHTML = dataBank;
+  speakersList.innerHTML = dataBank;
+});

@@ -11,11 +11,11 @@
 - Javascript
 - Markdown
 
-## Live Demo (if available)
+## Live Demo
 
-![Live Demo](img/21.png "Live Demo")
+![Live Demo](https://www.loom.com/share/8f4c2dd506924cfeb1591a4d800acda2)
 
-[Live Demo Link](https://tinatsina.github.io/)
+[Live Demo Link](https://tinatsina.github.io/tinatsina-capstone/)
 
 ## Getting Started
 
